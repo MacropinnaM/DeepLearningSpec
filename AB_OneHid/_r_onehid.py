@@ -56,3 +56,4 @@ for i, n_h in enumerate(hidden_layer_sizes):
     predictions = predict(parameters, X)
     accuracy = float((np.dot(Y, predictions.T) + np.dot(1-Y, 1-predictions.T))/float(Y.size)*100)
     print("Accuracy for {} hidden units: {} %".format(n_h, accuracy))
+
