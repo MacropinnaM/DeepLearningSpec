@@ -4,7 +4,7 @@ import numpy as np
 import scipy.misc
 from scipy import ndimage
 
-from AA_LogReg._logreg import logreg
+from AA_LogReg._m_logreg import logreg
 from AA_LogReg.load_dataset import load_dataset
 
 # Loading the data (cat/non-cat)

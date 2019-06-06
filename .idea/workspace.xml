@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fb7c244-b06f-4a04-a6bd-5ca62b77fd3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DeepLearningSpec.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AA_LogReg/_Run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AA_LogReg/_Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AA_LogReg/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AA_LogReg/_logreg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AA_LogReg/initialize_with_zeros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AA_LogReg/load_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AA_LogReg/optimize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AA_LogReg/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AA_LogReg/propagate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AA_LogReg/sigmoid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Data/my_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Data/test_catvnoncat.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Data/train_catvnoncat.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/Tests_OH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/_m_onehid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/_r_onehid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/backward_propagation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/compute_cost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/forward_propagation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/initialize_parameters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/layer_sizes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/load_planar_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/plot_decision_boundary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AB_OneHid/update_parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_LogReg/_Run.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_LogReg/_r_logreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_LogReg/_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_LogReg/Tests_LR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_LogReg/_logreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_LogReg/_m_logreg.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +29,24 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AA_LogReg/_Run.py">
+        <entry file="file://$PROJECT_DIR$/AB_OneHid/Tests_OH.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+            <state relative-caret-position="296">
+              <caret line="176" column="23" selection-start-line="176" selection-start-column="23" selection-end-line="176" selection-end-column="23" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AB_OneHid/_r_onehid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,6 +78,22 @@
         <option value="$PROJECT_DIR$/AA_LogReg/_logreg.py" />
         <option value="$PROJECT_DIR$/AA_LogReg/load_dataset.py" />
         <option value="$PROJECT_DIR$/AA_LogReg/_Run.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/_Test.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/_onehid.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/load_planar_dataset.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/_Run.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/_r_onehid.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/plot_decision_boundary.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/layer_sizes.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/_t_one_hid.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/initialize_parameters.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/forward_propagation.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/compute_cost.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/backward_propagation.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/update_parameters.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/_m_onehid.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/predict.py" />
+        <option value="$PROJECT_DIR$/AB_OneHid/Tests_OH.py" />
       </list>
     </option>
   </component>
@@ -99,7 +126,7 @@
             <path>
               <item name="DeepLearningSpec" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearningSpec" type="462c0819:PsiDirectoryNode" />
-              <item name="AA_LogReg" type="462c0819:PsiDirectoryNode" />
+              <item name="AB_OneHid" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -111,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AB_OneHid" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -127,6 +154,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AB_OneHid" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_Data" />
       <recent name="$PROJECT_DIR$/AA_LogReg" />
@@ -144,8 +174,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python._Run">
-    <configuration name="_Run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python._r_onehid">
+    <configuration name="_r_onehid" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearningSpec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,12 +183,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AA_LogReg" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AB_OneHid" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AA_LogReg/_Run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AB_OneHid/_r_onehid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_t_one_hid" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearningSpec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,12 +205,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AA_LogReg" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AB_OneHid" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AA_LogReg/_Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AB_OneHid/Tests_OH.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,8 +221,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python._Run" />
-        <item itemvalue="Python._Test" />
+        <item itemvalue="Python._r_onehid" />
+        <item itemvalue="Python._t_one_hid" />
       </list>
     </recent_temporary>
   </component>
@@ -206,37 +236,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559634679039</updated>
-      <workItem from="1559634680217" duration="3772000" />
+      <workItem from="1559634680217" duration="7828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3772000" />
+    <option name="totallyTimeSpent" value="7828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="23" width="1235" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24979044" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="right" id="SciView" visible="true" weight="0.32942164" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24979044" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.32942164" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +276,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_Run.coverage" NAME="_Run Coverage Results" MODIFIED="1559726867245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AA_LogReg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_Test.coverage" NAME="_Test Coverage Results" MODIFIED="1559725122898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AA_LogReg" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$_Run__1_.coverage" NAME="_Run (1) Coverage Results" MODIFIED="1559801210300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AB_OneHid" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_onehid.coverage" NAME="_r_onehid Coverage Results" MODIFIED="1559806117347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AB_OneHid" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$_t_one_hid.coverage" NAME="_t_one_hid Coverage Results" MODIFIED="1559806113164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AB_OneHid" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AA_LogReg/initialize_with_zeros.py">
@@ -288,16 +322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AA_LogReg/load_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -308,19 +332,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/_logreg.py">
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/load_planar_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/_r_logreg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/plot_decision_boundary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/layer_sizes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/_r_onehid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/Tests_LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="57" column="32" lean-forward="true" selection-start-line="47" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/initialize_parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/sigmoid.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/forward_propagation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/compute_cost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/backward_propagation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/update_parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/_m_onehid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/_m_logreg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/_Run.py">
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/Tests_OH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="176" column="23" selection-start-line="176" selection-start-column="23" selection-end-line="176" selection-end-column="23" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
