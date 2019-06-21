@@ -22,22 +22,17 @@ def logreg(X_train, Y_train, X_test, Y_test,
 
     # Gradient descent
     parameters, grads, costs = optimize(w, b, X_train, Y_train, num_iterations, lr, print_cost)
+    w, b = parameters["w"], parameters["b"]
 
-    # Retrieve parameters w and b from dictionary "parameters"
-    w = parameters["w"]
-    b = parameters["b"]
+    Y_pred_train = predict(w, b, X_train)
+    Y_pred_test = predict(w, b, X_test)
 
-    # Predict test/train set examples (≈ 2 lines of code)
-    Y_prediction_test = predict(w, b, X_test)
-    Y_prediction_train = predict(w, b, X_train)
-
-    # Print train/test Errors
-    print("train accuracy: {} %".format(100 - np.mean(np.abs(Y_prediction_train - Y_train)) * 100))
-    print("test accuracy: {} %".format(100 - np.mean(np.abs(Y_prediction_test - Y_test)) * 100))
+    print("train accuracy: {} %".format(100 - np.mean(np.abs(Y_pred_train - Y_train)) * 100))
+    print("test accuracy: {} %".format(100 - np.mean(np.abs(Y_pred_test - Y_test)) * 100))
 
     d = {"costs": costs,
-         "Y_prediction_test": Y_prediction_test,
-         "Y_prediction_train": Y_prediction_train,
+         "Y_prediction_train": Y_pred_train,
+         "Y_prediction_test": Y_pred_test,
          "w": w,
          "b": b,
          "learning_rate": lr,

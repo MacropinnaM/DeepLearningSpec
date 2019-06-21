@@ -1,4 +1,5 @@
 import numpy as np
+np.random.seed(8)
 
 from AB_OneHid._m_onehid import onehid
 from AB_OneHid.backward_propagation import backward_propagation
@@ -6,17 +7,12 @@ from AB_OneHid.compute_cost import compute_cost
 from AB_OneHid.forward_propagation import forward_propagation
 from AB_OneHid.predict import predict
 from AB_OneHid.update_parameters import update_parameters
-
-np.random.seed(8)
-
 from AB_OneHid.initialize_parameters import initialize_parameters
 from AB_OneHid.layer_sizes import layer_sizes
 
-np.random.seed(1)
 
 # layer_sizes
-X_assess = np.random.randn(5, 3)
-Y_assess = np.random.randn(2, 3)
+X_assess, Y_assess = np.random.randn(5, 3), np.random.randn(2, 3)
 n_x, n_h, n_y = layer_sizes(X_assess, Y_assess)
 cond1 = n_x == 5
 cond2 = n_h == 4
@@ -47,7 +43,7 @@ X_assess = np.random.randn(2, 3)
 parameters = {'W1': np.array([[-0.00416758, -0.00056267],
                               [-0.02136196, 0.01640271],
                               [-0.01793436, -0.00841747],
-                              [ 0.00502881, -0.01245288]]),
+                              [0.00502881, -0.01245288]]),
               'W2': np.array([[-0.01057952, -0.00909008, 0.00551454, 0.02292208]]),
               'b1': np.random.randn(4, 1),
               'b2': np.array([[-1.3]])}
@@ -65,15 +61,8 @@ else:
 
 # compute_cost
 Y_assess = np.random.randn(1, 3) > 0
-parameters = {'W1': np.array([[-0.00416758, -0.00056267],
-                              [-0.02136196, 0.01640271],
-                              [-0.01793436, -0.00841747],
-                              [ 0.00502881, -0.01245288]]),
-              'W2': np.array([[-0.01057952, -0.00909008, 0.00551454, 0.02292208]]),
-              'b1': np.random.randn(4, 1),
-              'b2': np.array([[-1.3]])}
 A2 = (np.array([[0.5002307, 0.49985831, 0.50023963]]))
-cost = compute_cost(A2, Y_assess, parameters)
+cost = compute_cost(A2, Y_assess)
 cond = cost.round(4) == .6932
 if cond:
     print("Test compute_cost is OK")
@@ -82,6 +71,13 @@ else:
 
 
 # backward_propagation
+parameters = {'W1': np.array([[-0.00416758, -0.00056267],
+                              [-0.02136196, 0.01640271],
+                              [-0.01793436, -0.00841747],
+                              [ 0.00502881, -0.01245288]]),
+              'W2': np.array([[-0.01057952, -0.00909008, 0.00551454, 0.02292208]]),
+              'b1': np.random.randn(4, 1),
+              'b2': np.array([[-1.3]])}
 X_assess = np.random.randn(2, 3)
 Y_assess = (np.random.randn(1, 3) > 0)
 parameters = {'W1': np.array([[-0.00416758, -0.00056267],
@@ -91,6 +87,7 @@ parameters = {'W1': np.array([[-0.00416758, -0.00056267],
               'W2': np.array([[-0.01057952, -0.00909008, 0.00551454, 0.02292208]]),
               'b1': np.random.randn(4, 1),
               'b2': np.array([[-1.3]])}
+
 cache = {'A1': np.array([[-0.00616578, 0.0020626, 0.00349619],
                          [-0.05225116, 0.02725659, -0.02646251],
                          [-0.02009721, 0.0036869, 0.02883756],

@@ -6,7 +6,7 @@ from AB_OneHid.load_extra_datasets import load_extra_datasets
 from AB_OneHid.plot_decision_boundary import plot_decision_boundary
 from AB_OneHid.predict import predict
 
-noisy_circles, noisy_moons, blobs, gaussian_quantiles, no_structure = load_extra_datasets()
+noisy_circles, noisy_moons, blobs, gaussian_quantiles, no_structure = load_extra_datasets(N=200)
 datasets = {"noisy_circles": noisy_circles,
             "noisy_moons": noisy_moons,
             "blobs": blobs,

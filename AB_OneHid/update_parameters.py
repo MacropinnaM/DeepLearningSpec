@@ -1,27 +1,18 @@
 def update_parameters(parameters, grads, lr=1.2):
     """
     Updates parameters using the gradient descent update rule given above
-
-    Arguments:
-    parameters -- python dictionary containing your parameters
-    grads -- python dictionary containing your gradients
-
-    Returns:
-    parameters -- python dictionary containing your updated parameters
+    :param parameters: python dictionary containing your parameters
+    :param grads: python dictionary containing your gradients
+    :param lr: learning rate
+    :return: python dictionary containing your updated parameters -- parameters
     """
-    # Retrieve each parameter from the dictionary "parameters"
-    W1 = parameters["W1"]
-    b1 = parameters["b1"]
-    W2 = parameters["W2"]
-    b2 = parameters["b2"]
 
-    # Retrieve each gradient from the dictionary "grads"
-    dW1 = grads["dW1"]
-    db1 = grads["db1"]
-    dW2 = grads["dW2"]
-    db2 = grads["db2"]
+    W1, b1 = parameters["W1"], parameters["b1"]
+    W2, b2 = parameters["W2"], parameters["b2"]
 
-    # Update rule for each parameter
+    dW1, db1 = grads["dW1"], grads["db1"]
+    dW2, db2 = grads["dW2"], grads["db2"]
+
     W1 = W1 - lr * dW1
     b1 = b1 - lr * db1
     W2 = W2 - lr * dW2

@@ -3,18 +3,13 @@ from AB_OneHid.forward_propagation import forward_propagation
 
 def predict(parameters, X):
     """
-    Using the learned parameters, predicts a class for each example in X
-
-    Arguments:
-    parameters -- python dictionary containing your parameters
-    X -- input data of size (n_x, m)
-
-    Returns
-    predictions -- vector of predictions of our model (red: 0 / blue: 1)
+    Predict a class for each example in X, using the learned parameters
+    :param parameters: python dictionary containing your parameters
+    :param X: input data of size (n_x, m)
+    :return: vector of predictions of our model (red: 0 / blue: 1) -- preds
     """
 
-    # Computes probabilities using forward propagation, and classifies to 0/1 using 0.5 as the threshold.
     A2, cache = forward_propagation(X, parameters)
-    predictions = (A2 > 0.5)
+    preds = (A2 > 0.5)
 
-    return predictions
+    return preds

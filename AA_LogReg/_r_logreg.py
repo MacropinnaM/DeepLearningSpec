@@ -6,8 +6,7 @@ from AA_LogReg.load_dataset import load_dataset
 
 # Loading the data (cat/non-cat)
 data_folder = '/Users/lilkosh/PycharmProjects/DeepLearningSpec/_Data/'
-train_file = 'train_catvnoncat.h5'
-test_file = 'test_catvnoncat.h5'
+train_file, test_file = 'train_catvnoncat.h5', 'test_catvnoncat.h5'
 train_x, train_y, test_x, test_y, classes = load_dataset(data_folder, train_file, test_file)
 
 # Example of a picture
@@ -46,12 +45,13 @@ print("sanity check after reshaping: " + str(train_x_flatten[0:5, 0]))
 train_x = train_x_flatten/255.
 test_x = test_x_flatten/255.
 
-# Train the model
-print('\n' + "\033[1m" + "Train the model: " + "\033[0m")
+
+### TRAIN LOGISTIC REGRESSION MODEL ###
+print('\n' + "\033[1m" + " TRAIN LOGISTIC REGRESSION MODEL: " + "\033[0m")
 d = logreg(train_x, train_y, test_x, test_y,
            num_iterations=2000, lr=0.005, print_cost=True)
 
-# Plot learning curve (with costs)
+# Plot learning curve
 costs = np.squeeze(d['costs'])
 plt.plot(costs)
 plt.ylabel('cost')
@@ -59,8 +59,9 @@ plt.xlabel('iterations (per hundreds)')
 plt.title("Learning rate =" + str(d["learning_rate"]))
 plt.show()
 
-# Further analysis -- Learning rate choice
-print('\n' + "\033[1m" + "Choosing the learning rate: " + "\033[0m")
+
+### CHOOSING THE LEARNING RATE ###
+print('\n' + "\033[1m" + " CHOOSING THE LEARNING RATE: " + "\033[0m")
 learning_rates = [0.01, 0.001, 0.0001]
 models = {}
 for i in learning_rates:
