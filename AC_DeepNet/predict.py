@@ -5,19 +5,15 @@ from AC_DeepNet.l_model_forward import l_model_forward
 
 def predict(X, y, parameters):
     """
-    This function is used to predict the results of a  L-layer neural network.
-
-    Arguments:
-    X -- data set of examples you would like to label
-    parameters -- parameters of the trained model
-
-    Returns:
-    p -- predictions for the given dataset X
+    Predict the results of a  L-layer neural network
+    :param X: data set of examples you would like to label
+    :param y: data set of labels
+    :param parameters: parameters of the trained model
+    :return: predictions for the given dataset X -- preds
     """
 
     m = X.shape[1]
-    n = len(parameters) // 2  # number of layers in the neural network
-    p = np.zeros((1, m))
+    preds = np.zeros((1, m))
 
     # Forward propagation
     probas, caches = l_model_forward(X, parameters)
@@ -25,10 +21,10 @@ def predict(X, y, parameters):
     # convert probas to 0/1 predictions
     for i in range(0, probas.shape[1]):
         if probas[0, i] > 0.5:
-            p[0, i] = 1
+            preds[0, i] = 1
         else:
-            p[0, i] = 0
+            preds[0, i] = 0
 
-    print("Accuracy: " + str(np.sum((p == y) / m)))
+    print("Accuracy: " + str(np.sum((preds == y) / m)))
 
-    return p
+    return preds

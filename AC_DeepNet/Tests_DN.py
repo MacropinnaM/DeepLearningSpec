@@ -188,7 +188,7 @@ grads = {"dW1": dW1,
          "dW2": dW2,
          "db2": db2}
 
-parameters = update_parameters(parameters, grads, 0.1)
+parameters = update_parameters(parameters, grads, lr=0.1)
 cond1 = np.mean(W1).round(4) == -.174
 cond2 = np.mean(b1).round(4) == -.1332
 cond3 = np.mean(W2).round(4) == .4304
@@ -198,8 +198,3 @@ if cond:
     print("Test update_parameters is OK")
 else:
     print("Test update_parameters FAILS")
-
-"""
-print(np.mean(___).round(4))
-
-"""

@@ -5,18 +5,15 @@ from AC_DeepNet.sigmoid_backward import sigmoid_backward
 
 def linear_activation_backward(dA, cache, activation):
     """
-    Implement the backward propagation for the LINEAR->ACTIVATION layer.
-
-    Arguments:
-    dA -- post-activation gradient for current layer l
-    cache -- tuple of values (linear_cache, activation_cache) we store for computing backward propagation efficiently
-    activation -- the activation to be used in this layer, stored as a text string: "sigmoid" or "relu"
-
-    Returns:
-    dA_prev -- Gradient of the cost with respect to the activation (of the previous layer l-1), same shape as A_prev
-    dW -- Gradient of the cost with respect to W (current layer l), same shape as W
-    db -- Gradient of the cost with respect to b (current layer l), same shape as b
+    Implement the backward propagation for the LINEAR->ACTIVATION layer
+    :param dA: post-activation gradient for current layer l
+    :param cache: tuple of values (linear_cache, activation_cache) we stored
+    :param activation: the activation to be used in this layer: "sigmoid" or "relu"
+    :return: gradient of the cost wrt the activation (of the previous layer l-1), same shape as A_prev -- dA_prev
+             gradient of the cost wrt W (current layer l), same shape as W -- dW
+             gradient of the cost wrt b (current layer l), same shape as b -- db
     """
+
     linear_cache, activation_cache = cache
 
     if activation == "relu":

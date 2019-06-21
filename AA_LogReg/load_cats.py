@@ -2,7 +2,7 @@ import numpy as np
 import h5py
 
 
-def load_dataset(data_folder, train_file, test_file):
+def load_cats(data_folder, train_file, test_file):
     """
     Generate features and labels of train and test data and gets the list of classes
     :param data_folder: name of the folder with data files
