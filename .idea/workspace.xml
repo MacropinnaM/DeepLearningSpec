@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fb7c244-b06f-4a04-a6bd-5ca62b77fd3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AC_DeepNet/compute_cost.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AC_DeepNet/l_model_backward.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AC_DeepNet/l_model_forward.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AC_DeepNet/linear_activation_backward.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AC_DeepNet/linear_backward.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AC_DeepNet/load_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AC_DeepNet/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AC_DeepNet/two_layer_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AC_DeepNet/update_parameters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AC_DeepNet/Tests_DN.py" beforeDir="false" afterPath="$PROJECT_DIR$/AC_DeepNet/Tests_DN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AC_DeepNet/_m_deepnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/AC_DeepNet/_m_deepnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_LogReg/_r_logreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_LogReg/_r_logreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_LogReg/load_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_LogReg/load_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_LogReg/optimize.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_LogReg/optimize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_LogReg/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_LogReg/predict.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,28 +15,18 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Tests_DN.coverage" NAME="Tests_DN Coverage Results" MODIFIED="1560669885469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AC_DeepNet" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_logreg.coverage" NAME="_r_logreg Coverage Results" MODIFIED="1561103113392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AA_LogReg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_deepnet.coverage" NAME="_r_deepnet Coverage Results" MODIFIED="1560672853874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AC_DeepNet" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$Tests_LR.coverage" NAME="Tests_LR Coverage Results" MODIFIED="1561103011613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AA_LogReg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_m_deepnet.coverage" NAME="_m_deepnet Coverage Results" MODIFIED="1560670559083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AC_DeepNet" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AC_DeepNet/_m_deepnet.py">
+        <entry file="file://$PROJECT_DIR$/AA_LogReg/_r_logreg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="61" selection-start-line="46" selection-start-column="27" selection-end-line="61" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+            <state relative-caret-position="-565">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="32" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -74,11 +54,8 @@
         <option value="$PROJECT_DIR$/Neural Networks and Deep Learning/Logistic Regression as a Neural Network/initialize_with_zeros.py" />
         <option value="$PROJECT_DIR$/Neural Networks and Deep Learning/Logistic Regression as a Neural Network/propagate.py" />
         <option value="$PROJECT_DIR$/AA_LogReg/propagate.py" />
-        <option value="$PROJECT_DIR$/AA_LogReg/optimize.py" />
-        <option value="$PROJECT_DIR$/AA_LogReg/predict.py" />
         <option value="$PROJECT_DIR$/AA_LogReg/_Test.py" />
         <option value="$PROJECT_DIR$/AA_LogReg/_logreg.py" />
-        <option value="$PROJECT_DIR$/AA_LogReg/load_dataset.py" />
         <option value="$PROJECT_DIR$/AA_LogReg/_Run.py" />
         <option value="$PROJECT_DIR$/AB_OneHid/_Test.py" />
         <option value="$PROJECT_DIR$/AB_OneHid/_onehid.py" />
@@ -119,6 +96,10 @@
         <option value="$PROJECT_DIR$/AC_DeepNet/l_model_backward.py" />
         <option value="$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py" />
         <option value="$PROJECT_DIR$/AC_DeepNet/_m_deepnet.py" />
+        <option value="$PROJECT_DIR$/AA_LogReg/predict.py" />
+        <option value="$PROJECT_DIR$/AA_LogReg/optimize.py" />
+        <option value="$PROJECT_DIR$/AA_LogReg/load_dataset.py" />
+        <option value="$PROJECT_DIR$/AA_LogReg/_r_logreg.py" />
       </list>
     </option>
   </component>
@@ -142,6 +123,11 @@
             <path>
               <item name="DeepLearningSpec" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearningSpec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearningSpec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearningSpec" type="462c0819:PsiDirectoryNode" />
+              <item name="AA_LogReg" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,8 +176,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python._r_deepnet">
-    <configuration name="Tests_DN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Run_logreg">
+    <configuration name="Run_logreg" type="PythonConfigurationType" factoryName="Python">
       <module name="DeepLearningSpec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,12 +185,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AC_DeepNet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AA_LogReg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AC_DeepNet/Tests_DN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AA_LogReg/_r_logreg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_m_deepnet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Tests_LR" type="PythonConfigurationType" factoryName="Python">
       <module name="DeepLearningSpec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,12 +207,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AC_DeepNet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AA_LogReg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AC_DeepNet/_m_deepnet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AA_LogReg/Tests_LR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,81 +221,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_other_datasets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DeepLearningSpec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AB_OneHid" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AB_OneHid/_other_datasets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="_r_deepnet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DeepLearningSpec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AC_DeepNet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="_r_onehid" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DeepLearningSpec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AB_OneHid" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AB_OneHid/_r_onehid.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python._r_deepnet" />
-        <item itemvalue="Python._m_deepnet" />
-        <item itemvalue="Python.Tests_DN" />
-        <item itemvalue="Python._other_datasets" />
-        <item itemvalue="Python._r_onehid" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Python.Tests_LR" />
+      <item itemvalue="Python.Run_logreg" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -324,18 +239,18 @@
       <workItem from="1559634680217" duration="8559000" />
       <workItem from="1559806825278" duration="2048000" />
       <workItem from="1560666604503" duration="114000" />
-      <workItem from="1560666756900" duration="5579000" />
+      <workItem from="1560666756900" duration="6827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16300000" />
+    <option name="totallyTimeSpent" value="17548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1235" height="777" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2623638" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2623638" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -345,14 +260,14 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49874267" visible="true" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49874267" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="2" visible="true" weight="0.32942164" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.31265718" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
@@ -370,67 +285,6 @@
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Tests_DN.coverage" NAME="Tests_DN Coverage Results" MODIFIED="1559808805856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AC_DeepNet" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/initialize_with_zeros.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/sigmoid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/propagate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/optimize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/load_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/_r_logreg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AB_OneHid/plot_decision_boundary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -445,16 +299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/Tests_LR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="57" column="32" lean-forward="true" selection-start-line="47" selection-end-line="57" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -497,13 +341,6 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/_m_logreg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -702,6 +539,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AC_DeepNet/_m_deepnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="61" selection-start-line="46" selection-start-column="27" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -712,12 +559,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AC_DeepNet/_m_deepnet.py">
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/sigmoid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="61" selection-start-line="46" selection-start-column="27" selection-end-line="61" />
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/propagate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/optimize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/Tests_LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="57" column="32" selection-start-line="47" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/initialize_with_zeros.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/load_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/_m_logreg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/_r_logreg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-565">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

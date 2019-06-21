@@ -1,7 +1,8 @@
 from AA_LogReg.propagate import propagate
 
 
-def optimize(w, b, X, Y, num_iterations, lr, print_cost=False):
+def optimize(w, b, X, Y,
+             num_iterations, lr, print_cost=False):
     """
     This function optimizes w and b by running a gradient descent algorithm
     :param w: weights, a numpy array of size (num_px * num_px * 3, 1)
@@ -19,29 +20,17 @@ def optimize(w, b, X, Y, num_iterations, lr, print_cost=False):
     costs = []
 
     for i in range(num_iterations):
-
-        # Cost and gradient calculation
         grads, cost = propagate(w, b, X, Y)
-
-        # Retrieve derivatives from grads
-        dw = grads["dw"]
-        db = grads["db"]
-
-        # update rule
+        dw, db = grads["dw"], grads["db"]
         w = w - lr * dw
         b = b - lr * db
-
-        # Record the costs
         if i % 100 == 0:
             costs.append(cost)
-
-        # Print the cost every 100 training iterations
         if print_cost and i % 100 == 0:
             print("Cost after iteration %i: %f" % (i, cost))
 
     params = {"w": w,
               "b": b}
-
     grads = {"dw": dw,
              "db": db}
 

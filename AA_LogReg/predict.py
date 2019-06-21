@@ -20,7 +20,6 @@ def predict(w, b, X):
     A = sigmoid(np.dot(w.T, X) + b)
 
     for i in range(A.shape[1]):
-
         # Convert probabilities A[0,i] to actual predictions p[0,i]
         if A[0, i] > 0.5:
             preds[0][i] = 1
