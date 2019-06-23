@@ -1,5 +1,4 @@
 import numpy as np
-np.random.seed(8)
 
 from AB_OneHid._m_onehid import onehid
 from AB_OneHid.backward_propagation import backward_propagation
@@ -9,6 +8,8 @@ from AB_OneHid.predict import predict
 from AB_OneHid.update_parameters import update_parameters
 from AB_OneHid.initialize_parameters import initialize_parameters
 from AB_OneHid.layer_sizes import layer_sizes
+
+np.random.seed(8)
 
 
 # layer_sizes
