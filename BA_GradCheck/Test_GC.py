@@ -1,11 +1,8 @@
 import numpy as np
 
 from BA_GradCheck.backward_propagation import backward_propagation
-from BA_GradCheck.backward_propagation_n import backward_propagation_n
 from BA_GradCheck.forward_propagation import forward_propagation
-from BA_GradCheck.forward_propagation_n import forward_propagation_n
 from BA_GradCheck.gradient_check import gradient_check
-from BA_GradCheck.gradient_check_n import gradient_check_n
 
 np.random.seed(8)
 
