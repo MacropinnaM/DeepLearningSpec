@@ -2,22 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fb7c244-b06f-4a04-a6bd-5ca62b77fd3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/Test_GC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/_r_gradcheck.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/backward_propagation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/backward_propagation_n.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/dictionary_to_vector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/forward_propagation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/forward_propagation_n.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/gradient_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/gradient_check_n.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/gradients_to_vector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/relu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/sigmoid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BA_GradCheck/vector_to_dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/Test_R.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/_m_reg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/_r_reg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/backward_propagation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/backward_propagation_with_dropout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/backward_propagation_with_regularization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/compute_cost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/compute_cost_with_regularization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/forward_propagation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/forward_propagation_with_dropout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/initialize_parameters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/load_2D_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/plot_decision_boundary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/predict_dec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/relu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/sigmoid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BC_Reg/update_parameters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Data/data.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AB_OneHid/Tests_OH.py" beforeDir="false" afterPath="$PROJECT_DIR$/AB_OneHid/Tests_OH.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_LogReg/_r_logreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_LogReg/_r_logreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_LogReg/load_cats.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_LogReg/load_cats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AC_DeepNet/load_cats.py" beforeDir="false" afterPath="$PROJECT_DIR$/AC_DeepNet/load_cats.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +44,7 @@
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Tests_OH.coverage" NAME="Tests_OH Coverage Results" MODIFIED="1561107859907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AB_OneHid" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,25 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AC_DeepNet/l_layer_model.py" />
-        <option value="$PROJECT_DIR$/AA_LogReg/predict.py" />
-        <option value="$PROJECT_DIR$/AA_LogReg/optimize.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/load_extra_datasets.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/_other_datasets.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/load_planar_dataset.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/load_flower.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/predict.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/update_parameters.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/compute_cost.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/forward_propagation.py" />
-        <option value="$PROJECT_DIR$/AA_LogReg/_m_logreg.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/plot_decision_boundary.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/initialize_parameters.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/layer_sizes.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/_m_onehid.py" />
-        <option value="$PROJECT_DIR$/AA_LogReg/Tests_LR.py" />
-        <option value="$PROJECT_DIR$/AB_OneHid/_r_onehid.py" />
-        <option value="$PROJECT_DIR$/AC_DeepNet/predict.py" />
         <option value="$PROJECT_DIR$/AC_DeepNet/relu.py" />
         <option value="$PROJECT_DIR$/AC_DeepNet/relu_backward.py" />
         <option value="$PROJECT_DIR$/AC_DeepNet/linear_forward.py" />
@@ -78,11 +68,8 @@
         <option value="$PROJECT_DIR$/AC_DeepNet/sigmoid_backward.py" />
         <option value="$PROJECT_DIR$/AC_DeepNet/sigmoid.py" />
         <option value="$PROJECT_DIR$/AC_DeepNet/load_data.py" />
-        <option value="$PROJECT_DIR$/AC_DeepNet/load_cats.py" />
         <option value="$PROJECT_DIR$/AA_LogReg/load_dataset.py" />
-        <option value="$PROJECT_DIR$/AA_LogReg/_r_logreg.py" />
         <option value="$PROJECT_DIR$/AC_DeepNet/two_layer_model.py" />
-        <option value="$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py" />
         <option value="$PROJECT_DIR$/AC_DeepNet/_m_deepnet.py" />
         <option value="$PROJECT_DIR$/AC_DeepNet/Tests_DN.py" />
         <option value="$PROJECT_DIR$/AB_OneHid/Tests_OH.py" />
@@ -101,14 +88,36 @@
         <option value="$PROJECT_DIR$/BA_GradCheck/gradient_check_n.py" />
         <option value="$PROJECT_DIR$/BA_GradCheck/gradients_to_vector.py" />
         <option value="$PROJECT_DIR$/BA_GradCheck/vector_to_dictionary.py" />
+        <option value="$PROJECT_DIR$/BB_Regularization/load_2D_dataset.py" />
+        <option value="$PROJECT_DIR$/AA_LogReg/_r_logreg.py" />
+        <option value="$PROJECT_DIR$/AA_LogReg/load_cats.py" />
+        <option value="$PROJECT_DIR$/AC_DeepNet/load_cats.py" />
+        <option value="$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py" />
+        <option value="$PROJECT_DIR$/BB_Regularization/_r_reg.py" />
+        <option value="$PROJECT_DIR$/BB_Regularization/_m_reg.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/initialize_parameters.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/forward_propagation.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/backward_propagation.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/update_parameters.py" />
+        <option value="$PROJECT_DIR$/AC_DeepNet/predict.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/predict.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/compute_cost.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/predict_dec.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/compute_cost_with_regularization.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/backward_propagation_with_regularization.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/forward_propagation_with_dropout.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/backward_propagation_with_dropout.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/_m_reg.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/_r_reg.py" />
+        <option value="$PROJECT_DIR$/BC_Reg/Test_R.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="52" />
     <option name="y" value="23" />
-    <option name="width" value="1235" />
-    <option name="height" value="777" />
+    <option name="width" value="1388" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -118,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,24 +138,18 @@
             <path>
               <item name="DeepLearningSpec" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearningSpec" type="462c0819:PsiDirectoryNode" />
-              <item name="AC_DeepNet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepLearningSpec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepLearningSpec" type="462c0819:PsiDirectoryNode" />
-              <item name="BA_GradCheck" type="462c0819:PsiDirectoryNode" />
+              <item name="BC_Reg" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BA_GradCheck" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BC_Reg" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -162,11 +166,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BC_Reg" />
+      <recent name="$PROJECT_DIR$/AA_LogReg" />
+      <recent name="$PROJECT_DIR$/BB_Regularization" />
       <recent name="$PROJECT_DIR$/BA_GradCheck" />
       <recent name="$PROJECT_DIR$/AC_DeepNet" />
-      <recent name="$PROJECT_DIR$/AB_OneHid" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BC_Reg" />
       <recent name="$PROJECT_DIR$/_Data" />
       <recent name="$PROJECT_DIR$/AA_LogReg" />
     </key>
@@ -183,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Run_gradcheck">
+  <component name="RunManager" selected="Python.Test_R">
     <configuration name="Run_deepnet" type="PythonConfigurationType" factoryName="Python">
       <module name="DeepLearningSpec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,6 +279,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Run_reg" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepLearningSpec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BC_Reg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BC_Reg/_r_reg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_GC" type="PythonConfigurationType" factoryName="Python">
       <module name="DeepLearningSpec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,6 +315,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BA_GradCheck/Test_GC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_R" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepLearningSpec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BC_Reg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BC_Reg/Test_R.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,6 +420,8 @@
       <item itemvalue="Python.Run_deepnet" />
       <item itemvalue="Python.Test_GC" />
       <item itemvalue="Python.Run_gradcheck" />
+      <item itemvalue="Python.Run_reg" />
+      <item itemvalue="Python.Test_R" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -385,38 +438,40 @@
       <workItem from="1559806825278" duration="2048000" />
       <workItem from="1560666604503" duration="114000" />
       <workItem from="1560666756900" duration="12975000" />
-      <workItem from="1561275959710" duration="2194000" />
+      <workItem from="1561275959710" duration="6513000" />
+      <workItem from="1561453258356" duration="2096000" />
+      <workItem from="1561622330467" duration="1915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25890000" />
+    <option name="totallyTimeSpent" value="34220000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="23" width="1380" height="871" extended-state="6" />
+    <frame x="52" y="23" width="1388" height="877" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23766816" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23699851" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50125736" side_tool="true" weight="0.329927" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49874267" visible="true" weight="0.29011554" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49874267" visible="true" weight="0.2878981" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" x="0" y="0" width="295" height="671" id="Documentation" side_tool="true" weight="0.32884902" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="2" weight="0.31265718" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.31203565" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="295" height="671" id="Documentation" order="5" side_tool="true" weight="0.32884902" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,185 +482,18 @@
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_Run.coverage" NAME="_Run Coverage Results" MODIFIED="1559726867245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AA_LogReg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_Test.coverage" NAME="_Test Coverage Results" MODIFIED="1559725122898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AA_LogReg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_Run__1_.coverage" NAME="_Run (1) Coverage Results" MODIFIED="1559801210300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AB_OneHid" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$Tests_DN.coverage" NAME="Tests_DN Coverage Results" MODIFIED="1559808805856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AC_DeepNet" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$Test_R.coverage" NAME="Test_R Coverage Results" MODIFIED="1561624472692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BC_Reg" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$Run_logreg.coverage" NAME="Run_logreg Coverage Results" MODIFIED="1561280093328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AA_LogReg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_gradcheck.coverage" NAME="_r_gradcheck Coverage Results" MODIFIED="1561277685573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BA_GradCheck" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$Run_deepnet.coverage" NAME="Run_deepnet Coverage Results" MODIFIED="1561280348865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AC_DeepNet" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_onehid.coverage" NAME="_r_onehid Coverage Results" MODIFIED="1559806963496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AB_OneHid" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$Run_reg.coverage" NAME="Run_reg Coverage Results" MODIFIED="1561623298319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BC_Reg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_t_one_hid.coverage" NAME="_t_one_hid Coverage Results" MODIFIED="1559806113164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AB_OneHid" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_other_datasets.coverage" NAME="_other_datasets Coverage Results" MODIFIED="1559807138540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AB_OneHid" />
-    <SUITE FILE_PATH="coverage/DeepLearningSpec$Tests_DN.coverage" NAME="Tests_DN Coverage Results" MODIFIED="1559808805856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AC_DeepNet" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_reg.coverage" NAME="Run_reg Coverage Results" MODIFIED="1561621054041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BC_Reg" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/backward_propagation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/load_flower_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/optimize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/update_parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/compute_cost.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/forward_propagation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/_m_logreg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/plot_decision_boundary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/initialize_parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/layer_sizes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/load_extra_datasets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/_m_onehid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AB_OneHid/_r_onehid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AC_DeepNet/compute_cost.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AC_DeepNet/initialize_parameters_deep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AC_DeepNet/l_model_forward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="68" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AC_DeepNet/linear_activation_forward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AC_DeepNet/linear_backward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AC_DeepNet/predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AC_DeepNet/relu_backward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AC_DeepNet/linear_forward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AC_DeepNet/update_parameters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -647,26 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AC_DeepNet/load_cats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/load_cats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AC_DeepNet/two_layer_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -677,32 +545,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AA_LogReg/_r_logreg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AC_DeepNet/_m_deepnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -765,27 +613,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BA_GradCheck/_m_gradcheck">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BA_GradCheck/forward_propagation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BA_GradCheck/_m_gradcheck" />
     <entry file="file://$PROJECT_DIR$/BA_GradCheck/gradient_check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BA_GradCheck/forward_propagation_n.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
@@ -799,16 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BA_GradCheck/Test_GC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BA_GradCheck/backward_propagation_n.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BA_GradCheck/dictionary_to_vector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -847,6 +659,260 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/relu.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/load_2D_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/load_flower_dataset.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/load_extra_datasets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AC_DeepNet/load_cats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/_r_logreg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_LogReg/load_cats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AC_DeepNet/_r_deepnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/initialize_parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BA_GradCheck/forward_propagation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/forward_propagation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BA_GradCheck/forward_propagation_n.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BA_GradCheck/backward_propagation_n.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/backward_propagation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/update_parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AC_DeepNet/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/compute_cost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AB_OneHid/_r_onehid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="25" column="69" lean-forward="true" selection-start-line="25" selection-end-line="25" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/plot_decision_boundary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/predict_dec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/compute_cost_with_regularization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/forward_propagation_with_dropout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/_m_reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/_r_reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BA_GradCheck/Test_GC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="15" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/DeepLeSpec/Tests/test_backward_propagation_with_regularization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/Test_R.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="74" column="8" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/backward_propagation_with_dropout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC_Reg/backward_propagation_with_regularization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

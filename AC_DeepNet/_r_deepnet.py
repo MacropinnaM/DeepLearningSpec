@@ -6,9 +6,9 @@ from AC_DeepNet.predict import predict
 from AC_DeepNet.two_layer_model import two_layer_model
 
 # Loading the data (cat/non-cat)
-data_folder = '/Users/lilkosh/PycharmProjects/DeepLearningSpec/_Data/'
+comp = 'iKosh'
 train_file, test_file = 'train_catvnoncat.h5', 'test_catvnoncat.h5'
-train_x, train_y, test_x, test_y, classes = load_cats(data_folder, train_file, test_file)
+train_x, train_y, test_x, test_y, classes = load_cats(comp, train_file, test_file)
 
 # Example of a picture
 index = 5
