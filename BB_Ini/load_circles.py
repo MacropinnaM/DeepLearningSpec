@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def load_circles(n_samles_1, n_samples_2, noise):
     """
-    Create two circles
+    Create two series of data for train and test set
     :return: datasets with generated samples and labels
     """
     np.random.seed(2)

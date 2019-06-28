@@ -1,14 +1,14 @@
 import matplotlib.pyplot as plt
 
 from AC_DeepNet._m_deepnet import l_layer_model
-from AC_DeepNet.load_cats import load_cats
+from AC_DeepNet.load_pics import load_pics
 from AC_DeepNet.predict import predict
 from AC_DeepNet.two_layer_model import two_layer_model
 
 # Loading the data (cat/non-cat)
 comp = 'iKosh'
 train_file, test_file = 'train_catvnoncat.h5', 'test_catvnoncat.h5'
-train_x, train_y, test_x, test_y, classes = load_cats(comp, train_file, test_file)
+train_x, train_y, test_x, test_y, classes = load_pics(comp, train_file, test_file)
 
 # Example of a picture
 index = 5

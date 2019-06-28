@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 import sklearn.linear_model
 
 from AB_OneHid._m_onehid import onehid
-from AB_OneHid.load_flower_dataset import load_flower_dataset
+from AB_OneHid.load_flower import load_flower
 from AB_OneHid.plot_decision_boundary import plot_decision_boundary
 from AB_OneHid.predict import predict
 
 # Load dataset
-X, Y = load_flower_dataset(n_samples=400, n_classes=2, dim=2, max_ray=4)
+X, Y = load_flower(n_samples=400, n_classes=2, dim=2, max_ray=4)
 
 # Visualize the data
 plt.scatter(X[0, :], X[1, :], c=Y.ravel(), s=40, cmap=plt.cm.Spectral);

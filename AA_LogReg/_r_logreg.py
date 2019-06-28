@@ -2,12 +2,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from AA_LogReg._m_logreg import logreg
-from AA_LogReg.load_cats import load_cats
+from AA_LogReg.load_pics import load_pics
 
 # Loading the data (cat/non-cat)
 comp = 'iKosh'
 train_file, test_file = 'train_catvnoncat.h5', 'test_catvnoncat.h5'
-train_x, train_y, test_x, test_y, classes = load_cats(comp, train_file, test_file)
+train_x, train_y, test_x, test_y, classes = load_pics(comp, train_file, test_file)
 
 # Example of a picture
 index = 25
