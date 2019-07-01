@@ -43,16 +43,3 @@ print("Y_test shape: " + str(Y_test.shape))
 ### TENSORFLOW MODEL ###
 print('\n' + "\033[1m" + " TENSORFLOW MODEL:" + "\033[0m")
 parameters = model(X_train, Y_train, X_test, Y_test)
-
-
-### TEST TF MODEL ON MY IMAGE ###
-print('\n' + "\033[1m" + " TEST TF MODEL ON MY IMAGE:" + "\033[0m")
-my_image = "my_image.jpg"
-
-fname = "images/" + my_image
-image = np.array(ndimage.imread(fname, flatten=False))
-my_image = scipy.misc.imresize(image, size=(64, 64)).reshape((1, 64*64*3)).T
-my_image_prediction = predict(my_image, parameters)
-
-plt.imshow(image)
-print("TF algorithm predicts: y = " + str(np.squeeze(my_image_prediction)))
