@@ -1,5 +1,10 @@
 import numpy as np
+import tensorflow as tf
 
+from BE_TFTut.compute_cost import compute_cost
+from BE_TFTut.create_placeholders import create_placeholders
+from BE_TFTut.forward_propagation import forward_propagation
+from BE_TFTut.initialize_parameters import initialize_parameters
 from BE_TFTut.linear_function import linear_function
 from BE_TFTut.cost import cost
 
@@ -57,3 +62,57 @@ if cond:
     print("Test ones is OK")
 else:
     print("Test ones FAILS")
+
+
+# create_placeholders
+n_x, n_y = 12288, 6
+X, Y = create_placeholders(n_x, n_y)
+cond1 = X.shape[0] == n_x
+cond2 = Y.shape[0] == n_y
+cond = cond1 & cond2
+if cond:
+    print("Test create_placeholders is OK")
+else:
+    print("Test create_placeholders FAILS")
+
+
+# initialize_parameters
+tf.reset_default_graph()
+with tf.Session() as sess:
+    parameters = initialize_parameters()
+cond1 = parameters["W1"].shape == (25, 12288)
+cond2 = parameters["b1"].shape == (25, 1)
+cond3 = parameters["W2"].shape == (12, 25)
+cond4 = parameters["b2"].shape == (12, 1)
+cond = cond1 & cond2 & cond3 & cond4
+if cond:
+    print("Test initialize_parameters is OK")
+else:
+    print("Test initialize_parameters FAILS")
+
+
+# forward_propagation
+tf.reset_default_graph()
+with tf.Session() as sess:
+    X, Y = create_placeholders(12288, 6)
+    parameters = initialize_parameters()
+    Z3 = forward_propagation(X, parameters)
+cond = Z3.shape[0] == 6
+if cond:
+    print("Test forward_propagation is OK")
+else:
+    print("Test forward_propagation FAILS")
+
+
+# compute_cost
+tf.reset_default_graph()
+with tf.Session() as sess:
+    X, Y = create_placeholders(12288, 6)
+    parameters = initialize_parameters()
+    Z3 = forward_propagation(X, parameters)
+    cost = compute_cost(Z3, Y)
+cond = cost.shape == ()
+if cond:
+    print("Test compute_cost is OK")
+else:
+    print("Test compute_cost FAILS")
