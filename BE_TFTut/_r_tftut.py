@@ -1,7 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy import ndimage
-import scipy.misc
 
 from BE_TFTut._m_tftut import model
 from BE_TFTut.convert_to_one_hot import convert_to_one_hot
@@ -9,8 +7,6 @@ from BE_TFTut.load_pics import load_pics
 
 
 # Loading the dataset
-from BE_TFTut.predict import predict
-
 comp = "iKosh"
 train_file = "train_signs.h5"
 test_file = "test_signs.h5"

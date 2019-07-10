@@ -2,6 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fb7c244-b06f-4a04-a6bd-5ca62b77fd3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CA_Conv/Test_C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/_m_conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/_r_conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/compute_cost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/conv_forward.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/conv_single_step.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/convert_to_one_hot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/create_placeholders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/forward_propagation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/initialize_parameters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/load_pics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/pool_forward.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/random_mini_batches.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA_Conv/zero_pad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CB_Keras/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CB_Keras/_m_keras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CB_Keras/_r_keras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CB_Keras/load_pics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CB_Keras/mean_pred.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CC_ResNet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CD_Cars/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CE_Faces/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CF_Art/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Data/test_happy.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Data/train_happy.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BE_TFTut/_r_tftut.py" beforeDir="false" afterPath="$PROJECT_DIR$/BE_TFTut/_r_tftut.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,14 +48,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BE_TFTut/_r_tftut.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CB_Keras/_m_keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+            <state relative-caret-position="134">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CB_Keras/_r_keras.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -45,6 +81,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>moons</find>
+      <find>flat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -53,22 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BC_Reg/_m_reg.py" />
-        <option value="$PROJECT_DIR$/BC_Reg/_r_reg.py" />
-        <option value="$PROJECT_DIR$/BC_Reg/Test_R.py" />
-        <option value="$PROJECT_DIR$/BC_Reg/load_circles.py" />
-        <option value="$PROJECT_DIR$/BB_Ini/initialize_parameters_zeros.py" />
-        <option value="$PROJECT_DIR$/AC_DeepNet/initialize_parameters_deep.py" />
-        <option value="$PROJECT_DIR$/BA_GradCheck/Test_GC.py" />
-        <option value="$PROJECT_DIR$/BB_Ini/predict.py" />
-        <option value="$PROJECT_DIR$/BB_Ini/predict_dec.py" />
-        <option value="$PROJECT_DIR$/BB_Ini/forward_propagation.py" />
-        <option value="$PROJECT_DIR$/BC_Reg/forward_propagation.py" />
-        <option value="$PROJECT_DIR$/BB_Ini/initialize_parameters_random.py" />
-        <option value="$PROJECT_DIR$/BB_Ini/initialize_parameters_he.py" />
-        <option value="$PROJECT_DIR$/BB_Ini/initialize_parameters_xavier.py" />
-        <option value="$PROJECT_DIR$/BB_Ini/Test_I.py" />
-        <option value="$PROJECT_DIR$/BB_Ini/_m_ini.py" />
         <option value="$PROJECT_DIR$/BB_Ini/_r_ini.py" />
         <option value="$PROJECT_DIR$/BD_Opti/update_parameters_with_gd.py" />
         <option value="$PROJECT_DIR$/BD_Opti/random_mini_batches.py" />
@@ -103,7 +124,23 @@
         <option value="$PROJECT_DIR$/BD_Opti/_m_opti.py" />
         <option value="$PROJECT_DIR$/BE_TFTut/_m_tftut.py" />
         <option value="$PROJECT_DIR$/BE_TFTut/predict.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/zero_pad.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/conv_single_step.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/conv_forward.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/pool_forward.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/conv_backward.py" />
         <option value="$PROJECT_DIR$/BE_TFTut/_r_tftut.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/create_placeholders.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/initialize_parameters.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/forward_propagation.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/compute_cost.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/Test_C.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/random_mini_batches.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/_m_conv.py" />
+        <option value="$PROJECT_DIR$/CB_Keras/mean_pred.py" />
+        <option value="$PROJECT_DIR$/CA_Conv/_r_conv.py" />
+        <option value="$PROJECT_DIR$/CB_Keras/_r_keras.py" />
+        <option value="$PROJECT_DIR$/CB_Keras/_m_keras.py" />
       </list>
     </option>
   </component>
@@ -132,12 +169,7 @@
             <path>
               <item name="DeepLearningSpec" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearningSpec" type="462c0819:PsiDirectoryNode" />
-              <item name="BD_Opti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepLearningSpec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepLearningSpec" type="462c0819:PsiDirectoryNode" />
-              <item name="BE_TFTut" type="462c0819:PsiDirectoryNode" />
+              <item name="CB_Keras" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BE_TFTut" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CB_Keras" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -164,18 +196,18 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/BE_TFTut" />
-      <recent name="$PROJECT_DIR$/AC_DeepNet" />
-      <recent name="$PROJECT_DIR$/BD_Opti" />
-      <recent name="$PROJECT_DIR$/BB_Ini" />
-      <recent name="$PROJECT_DIR$/BC_Reg" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_Data" />
       <recent name="$PROJECT_DIR$/BB_Ini" />
       <recent name="$PROJECT_DIR$/BC_Reg" />
       <recent name="$PROJECT_DIR$/AA_LogReg" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CB_Keras" />
+      <recent name="$PROJECT_DIR$/CA_Conv" />
+      <recent name="$PROJECT_DIR$/BE_TFTut" />
+      <recent name="$PROJECT_DIR$/AC_DeepNet" />
+      <recent name="$PROJECT_DIR$/BD_Opti" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,7 +222,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python._r_tftut">
+  <component name="RunManager" selected="Python._r_keras">
+    <configuration name="Run_conv" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepLearningSpec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CA_Conv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CA_Conv/_r_conv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Run_deepnet" type="PythonConfigurationType" factoryName="Python">
       <module name="DeepLearningSpec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -345,7 +399,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TF_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Run_tftut" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepLearningSpec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BE_TFTut" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BE_TFTut/_r_tftut.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TF_example" type="PythonConfigurationType" factoryName="Python">
       <module name="DeepLearningSpec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,6 +435,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BE_TFTut/example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_C" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepLearningSpec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CA_Conv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CA_Conv/Test_C.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -543,7 +641,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_r_tftut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_r_keras" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearningSpec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -551,12 +649,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BE_TFTut" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CB_Keras" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BE_TFTut/_r_tftut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CB_Keras/_r_keras.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -566,6 +664,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Test_C" />
       <item itemvalue="Python.Test_TF" />
       <item itemvalue="Python.Test_O" />
       <item itemvalue="Python.Test_I" />
@@ -581,13 +680,14 @@
       <item itemvalue="Python.Test_R" />
       <item itemvalue="Python.Run_ini" />
       <item itemvalue="Python.Run_opti" />
-      <item itemvalue="Python._r_tftut" />
       <item itemvalue="Python.TF_example" />
+      <item itemvalue="Python.Run_tftut" />
+      <item itemvalue="Python.Run_conv" />
+      <item itemvalue="Python._r_keras" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python._r_tftut" />
-        <item itemvalue="Python.TF_example" />
+        <item itemvalue="Python._r_keras" />
       </list>
     </recent_temporary>
   </component>
@@ -609,19 +709,20 @@
       <workItem from="1561453258356" duration="2096000" />
       <workItem from="1561622330467" duration="11602000" />
       <workItem from="1561713694449" duration="2055000" />
-      <workItem from="1561794115773" duration="2302000" />
+      <workItem from="1561794115773" duration="2469000" />
+      <workItem from="1561968854876" duration="6869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48264000" />
+    <option name="totallyTimeSpent" value="55300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="23" width="1388" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24368499" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2473997" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -638,7 +739,7 @@
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="2" visible="true" weight="0.31203565" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.31203565" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="right" x="0" y="0" width="295" height="671" id="Documentation" order="5" side_tool="true" weight="0.32884902" />
@@ -660,19 +761,22 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_ini.coverage" NAME="Run_ini Coverage Results" MODIFIED="1561706779395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BB_Ini" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Test_GC.coverage" NAME="Test_GC Coverage Results" MODIFIED="1561277575540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BA_GradCheck" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$Test_C.coverage" NAME="Test_C Coverage Results" MODIFIED="1562745662150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CA_Conv" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_Run.coverage" NAME="_Run Coverage Results" MODIFIED="1559726867245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AA_LogReg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Test_I.coverage" NAME="Test_I Coverage Results" MODIFIED="1561627410873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BB_Ini" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_Test.coverage" NAME="_Test Coverage Results" MODIFIED="1559725122898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AA_LogReg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_Run__1_.coverage" NAME="_Run (1) Coverage Results" MODIFIED="1559801210300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AB_OneHid" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Test_O.coverage" NAME="Test_O Coverage Results" MODIFIED="1561711090406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BD_Opti" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$example.coverage" NAME="TF_example Coverage Results" MODIFIED="1561713281283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BE_TFTut" />
-    <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_tftut.coverage" NAME="_r_tftut Coverage Results" MODIFIED="1561967641900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BE_TFTut" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_tftut.coverage" NAME="_r_tftut Coverage Results" MODIFIED="1562057059922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BE_TFTut" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_keras.coverage" NAME="_r_keras Coverage Results" MODIFIED="1562748166879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CB_Keras" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Tests_DN.coverage" NAME="Tests_DN Coverage Results" MODIFIED="1559808805856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AC_DeepNet" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Test_R.coverage" NAME="Test_R Coverage Results" MODIFIED="1561624472692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BC_Reg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Test_TF.coverage" NAME="Test_TF Coverage Results" MODIFIED="1561966606618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BE_TFTut" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Run_logreg.coverage" NAME="Run_logreg Coverage Results" MODIFIED="1561280093328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AA_LogReg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_gradcheck.coverage" NAME="_r_gradcheck Coverage Results" MODIFIED="1561277685573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BA_GradCheck" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Run_deepnet.coverage" NAME="Run_deepnet Coverage Results" MODIFIED="1561280348865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AC_DeepNet" />
+    <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_conv.coverage" NAME="Run_conv Coverage Results" MODIFIED="1562746520129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CA_Conv" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_onehid.coverage" NAME="_r_onehid Coverage Results" MODIFIED="1559806963496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AB_OneHid" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$Run_reg.coverage" NAME="Run_reg Coverage Results" MODIFIED="1561623298319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BC_Reg" />
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_opti.coverage" NAME="Run_opti Coverage Results" MODIFIED="1561712321219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BD_Opti" />
@@ -681,156 +785,6 @@
     <SUITE FILE_PATH="coverage/DeepLearningSpec$_r_reg.coverage" NAME="Run_reg Coverage Results" MODIFIED="1561621054041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BC_Reg" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BB_Ini/Test_I.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BB_Ini/_m_ini.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BB_Ini/_r_ini.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD_Opti/update_parameters_with_gd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BC_Reg/Test_R.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="121" selection-start-line="117" selection-end-line="121" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD_Opti/update_parameters_with_adam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BC_Reg/initialize_parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD_Opti/initialize_parameters.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BC_Reg/backward_propagation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BC_Reg/forward_propagation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD_Opti/backward_propagation.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BB_Ini/load_circles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BC_Reg/load_2D_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD_Opti/initialize_adam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD_Opti/forward_propagation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD_Opti/load_moons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD_Opti/plot_decision_boundary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD_Opti/predict_dec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BC_Reg/_r_reg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1005,16 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BE_TFTut/Test_TF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="113" column="7" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BD_Opti/random_mini_batches.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1042,13 +986,6 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BE_TFTut/random_mini_batches.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="24" column="96" selection-start-line="24" selection-start-column="96" selection-end-line="24" selection-end-column="96" />
         </state>
       </provider>
     </entry>
@@ -1086,13 +1023,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BE_TFTut/_r_tftut.py">
+    <entry file="file://$PROJECT_DIR$/CA_Conv/zero_pad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/conv_forward.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/conv_backward.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/load_pics.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/Test_C.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="132" column="28" selection-start-line="132" selection-start-column="28" selection-end-line="132" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BE_TFTut/random_mini_batches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="96" selection-start-line="24" selection-start-column="96" selection-end-line="24" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/random_mini_batches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BE_TFTut/Test_TF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="117" column="36" lean-forward="true" selection-start-line="113" selection-end-line="117" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BE_TFTut/_r_tftut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="39" column="58" lean-forward="true" selection-start-line="39" selection-end-line="39" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/pool_forward.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/create_placeholders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/compute_cost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/conv_single_step.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/forward_propagation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/_m_conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/initialize_parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/convert_to_one_hot.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CB_Keras/load_pics.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CB_Keras/mean_pred.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CA_Conv/_r_conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CB_Keras/_m_keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CB_Keras/_r_keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
