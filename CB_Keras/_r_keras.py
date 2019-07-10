@@ -1,4 +1,5 @@
 # Loading the data (signs)
+from CB_Keras._m_keras import HappyModel
 from CB_Keras.load_pics import load_pics
 
 comp = "iKosh"
@@ -19,3 +20,13 @@ print("Y_train shape: " + str(Y_train.shape))
 print("X_test shape: " + str(X_test.shape))
 print("Y_test shape: " + str(Y_test.shape))
 
+# TREAIN THE KERAS MODEL
+print('\n' + "\033[1m" + " TRAIN THE KERAS MODEL:" + "\033[0m")
+happyModel = HappyModel(X_train.shape[1:])
+happyModel.compile(loss='binary_crossentropy', optimizer='Adam', metrics=['accuracy'])
+happyModel.fit(x=X_train, y=Y_train, batch_size=12, epochs=2)
+
+preds = happyModel.evaluate(x = X_test, y =Y_test)
+print()
+print("Loss = " + str(preds[0]))
+print("Test Accuracy = " + str(preds[1]))

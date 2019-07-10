@@ -31,6 +31,6 @@ print("X_test shape: " + str(X_test.shape))
 print("Y_test shape: " + str(Y_test.shape))
 conv_layers = {}
 
-# TRAIN THE MODEL
-print('\n' + "\033[1m" + " TRAIN THE MODEL:" + "\033[0m")
+# TRAIN THE TF MODEL
+print('\n' + "\033[1m" + " TRAIN THE TF MODEL:" + "\033[0m")
 _, _, parameters = model(X_train, Y_train, X_test, Y_test)
