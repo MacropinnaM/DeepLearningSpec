@@ -26,7 +26,7 @@ happyModel = HappyModel(X_train.shape[1:])
 happyModel.compile(loss='binary_crossentropy', optimizer='Adam', metrics=['accuracy'])
 happyModel.fit(x=X_train, y=Y_train, batch_size=12, epochs=2)
 
-preds = happyModel.evaluate(x = X_test, y =Y_test)
+preds = happyModel.evaluate(x=X_test, y=Y_test)
 print()
 print("Loss = " + str(preds[0]))
 print("Test Accuracy = " + str(preds[1]))

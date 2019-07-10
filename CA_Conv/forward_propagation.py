@@ -5,14 +5,9 @@ def forward_propagation(X, parameters):
     """
     Implements the forward propagation for the model:
     CONV2D -> RELU -> MAXPOOL -> CONV2D -> RELU -> MAXPOOL -> FLATTEN -> FULLYCONNECTED
-
-    Arguments:
-    X -- input dataset placeholder, of shape (input size, number of examples)
-    parameters -- python dictionary containing your parameters "W1", "W2"
-                  the shapes are given in initialize_parameters
-
-    Returns:
-    Z3 -- the output of the last LINEAR unit
+    :param X: input dataset placeholder, of shape (input size, number of examples)
+    :param parameters: python dictionary containing your parameters "W1", "W2"
+    :return: the output of the last LINEAR unit -- Z3
     """
 
     W1 = parameters['W1']

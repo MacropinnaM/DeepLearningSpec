@@ -4,15 +4,11 @@ import numpy as np
 def pool_forward(A_prev, hparameters, mode="max"):
     """
     Implements the forward pass of the pooling layer
-
-    Arguments:
-    A_prev -- Input data, numpy array of shape (m, n_H_prev, n_W_prev, n_C_prev)
-    hparameters -- python dictionary containing "f" and "stride"
-    mode -- the pooling mode you would like to use, defined as a string ("max" or "average")
-
-    Returns:
-    A -- output of the pool layer, a numpy array of shape (m, n_H, n_W, n_C)
-    cache -- cache used in the backward pass of the pooling layer, contains the input and hparameters
+    :param A_prev: Input data, numpy array of shape (m, n_H_prev, n_W_prev, n_C_prev)
+    :param hparameters: dictionary containing "f" and "stride"
+    :param mode: the pooling mode ("max" or "average")
+    :return: output of the pool layer, a numpy array of shape (m, n_H, n_W, n_C) -- A
+             cache used in the backward pass of the pooling layer, contains the input and hparameters -- cache
     """
 
     (m, n_H_prev, n_W_prev, n_C_prev) = A_prev.shape

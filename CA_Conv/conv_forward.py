@@ -7,16 +7,12 @@ from CA_Conv.zero_pad import zero_pad
 def conv_forward(A_prev, W, b, hparameters):
     """
     Implements the forward propagation for a convolution function
-
-    Arguments:
-    A_prev -- output activations of the previous layer, numpy array of shape (m, n_H_prev, n_W_prev, n_C_prev)
-    W -- Weights, numpy array of shape (f, f, n_C_prev, n_C)
-    b -- Biases, numpy array of shape (1, 1, 1, n_C)
-    hparameters -- python dictionary containing "stride" and "pad"
-
-    Returns:
-    Z -- conv output, numpy array of shape (m, n_H, n_W, n_C)
-    cache -- cache of values needed for the conv_backward() function
+    :param A_prev: output activations of the previous layer, numpy array of shape (m, n_H_prev, n_W_prev, n_C_prev)
+    :param W: Weights, numpy array of shape (f, f, n_C_prev, n_C)
+    :param b: Biases, numpy array of shape (1, 1, 1, n_C)
+    :param hparameters: python dictionary containing "stride" and "pad"
+    :return: conv output, numpy array of shape (m, n_H, n_W, n_C) -- Z
+             cache of values needed for the conv_backward() function -- cache
     """
 
     (m, n_H_prev, n_W_prev, n_C_prev) = A_prev.shape
