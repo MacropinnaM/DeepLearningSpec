@@ -2,7 +2,6 @@
 from CC_ResNet._m_resnet import ResNet50
 from CC_ResNet.convert_to_one_hot import convert_to_one_hot
 from CC_ResNet.load_pics import load_pics
-from keras.models import load_model
 
 comp = "iKosh"
 train_file = "train_signs.h5"
@@ -29,14 +28,7 @@ print('\n' + "\033[1m" + " TRAIN 50 LAYERS RESNET:" + "\033[0m")
 model = ResNet50(input_shape=(64, 64, 3), classes=6)
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-model.fit(X_train, Y_train, epochs=20, batch_size=32)
-preds = model.evaluate(X_test, Y_test)
-print("Loss = " + str(preds[0]))
-print("Test Accuracy = " + str(preds[1]))
-
-# TRAIN THE MODEL ON THE KERAS SIGNS DATASET
-print('\n' + "\033[1m" + " TRAIN THE MODEL ON THE KERAS SIGNS DATASET:" + "\033[0m")
-model = load_model('ResNet50.h5')
+model.fit(X_train, Y_train, epochs=4, batch_size=32)
 preds = model.evaluate(X_test, Y_test)
 print("Loss = " + str(preds[0]))
 print("Test Accuracy = " + str(preds[1]))
